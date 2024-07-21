@@ -3,52 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Aagaman</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name], a [Your Profession].</p>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>[A brief description about yourself]</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>[Description of project 1]</p>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Hello</h1>
+        <div id="joke-container" class="joke-container">
+            <p id="joke">Press the button to get a joke!</p>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>[Description of project 2]</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: [Your Email]</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
-    </footer>
-
-    <script src="scripts.js"></script>
+        <button id="get-joke-btn">Get a Joke</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
